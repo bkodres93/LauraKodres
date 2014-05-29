@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-sm-4">
+				<h2>Contact</h2>
+				<hr>
+				<img src="http://www.mfmgroup.org/images/kodres2_cropped.jpg" alt="Responsive image" class="img-responsive">
+				<br>
+				<address>
+					<strong>Email:</strong>
+					<a href="mailto:#"> lkodres@gmail.com</a>
+					<br><br>
+					<strong>Phone:</strong> (202)-641-2593
+				</address>
+			</div>
+    
+			<div class="col-sm-8 contact-form">
+				<form id="contact" method="post" class="form" role="form">
+					<br><br><br><br><br>
+					<div class="row">
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+						
+						</div>
+					</div>
+					<br>
+					<textarea class="form-control" id="message" name="message" placeholder="Message" rows="8"></textarea>
+					<br>
+					<div class="row">
+						<div class="col-xs-12 col-md-12 form-group">
+							<button class="btn btn-primary pull-right" type="submit">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

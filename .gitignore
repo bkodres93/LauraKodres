@@ -1,0 +1,6 @@
+# exclude anything related to the virtual environment
+/venv
+/venv/*
+/fonts
+/fonts/*
+
