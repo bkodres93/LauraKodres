@@ -1728,6 +1728,7 @@ fieldset[disabled] .form-control {
 }
 textarea.form-control {
   height: auto;
+  min-height: 160px;
 }
 input[type="search"] {
   -webkit-appearance: none;
